@@ -132,6 +132,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias cat='bat'
 alias tmux='tmux -u'
+alias ls='exa'
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 

@@ -1,0 +1,16 @@
+[vim.files]
+vimrc = "~/.vimrc"
+
+[bash.files]
+bashrc = "~/.bashrc"
+bash_aliases = "~/.bash_aliases"
+
+[zsh.files]
+zshrc = "~/.zshrc"
+zprofile = "~/.zprofile"
+
+[tmux.files]
+"tmux.conf" = "~/.tmux.conf"
+
+[git.files]
+gitconfig = "~/.gitconfig"
