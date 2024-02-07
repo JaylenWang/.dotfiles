@@ -128,8 +128,8 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+alias la='ls -a'
+alias l='ls -F'
 alias cat='bat'
 alias tmux='tmux -u'
 alias ls='exa'
@@ -142,3 +142,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # zoxide
 eval "$(zoxide init zsh)"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+source /home/jaylenwang/.config/broot/launcher/bash/br
+
+# mcfly
+eval "$(mcfly init zsh)"
