@@ -147,3 +147,5 @@ source /home/jaylenwang/.config/broot/launcher/bash/br
 
 # mcfly
 eval "$(mcfly init zsh)"
+
+export EDITOR=/usr/bin/vim
